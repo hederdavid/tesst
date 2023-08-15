@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
   mysteryButton.addEventListener('click', () => {
     mysteryButton.style.display = 'none';
     centeredDiv.style.display = 'none';
-    text.classList.remove('hidden');
+    img.classList.remove('hidden');
 
     // Simulando algum processamento demorado
     setTimeout(() => {
